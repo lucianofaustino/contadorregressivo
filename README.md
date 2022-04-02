@@ -5,7 +5,6 @@ Nesse caso foi passado dentro da função construtora, como exemplo, a data futu
 ```js
 const timeFuture = new Countdown("31 december 2022 GMT-0300 23:59:59");
 ```
-******Para acessar:
-<https://lucianofaustino.github.io/contadorregressivo/>
+Link: <https://lucianofaustino.github.io/contadorregressivo/>
 
 <https://www.linkedin.com/in/lucianowebdeveloper/>
