@@ -55,3 +55,91 @@ h1 {
   font-size: 7rem;
   font-weight: normal;
 }
+
+@media (max-width: 1070px) {
+
+  .countdown {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
+    gap: 10px;
+  }
+
+  .countdown li span {
+    font-size: 5rem;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+    margin: 20px 145px 20px;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .countdown {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 150px));
+    gap: 8px;
+
+  }
+
+  .countdown li span {
+    font-size: 4rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin: 20px 135px 16px;
+  }
+
+  .countdown li {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 700px) {
+
+    .countdown {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 50px));
+      gap: 5px;
+  
+    }
+  
+    .countdown li span {
+      font-size: 3rem;
+    }
+  
+    h1 {
+      font-size: 1.2rem;
+      margin: 10px 30px 8px;
+    }
+  
+    .countdown li {
+      font-size: .9rem;
+    }
+  }
+
+  @media (max-width: 420px) {
+
+    .countdown {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 100px));
+      gap: 8px;
+  
+    }
+  
+    .countdown li span {
+      font-size: 5rem;
+    }
+  
+    h1 {
+      font-size: 1.3rem;
+      margin: 1px 95px 8px 95px;  
+      justify-content: center;    
+    }
+  
+    .countdown li {
+      font-size: 1rem;      
+    }
+
+    .text {
+      color: #969696;
+    }
+  }
+}
