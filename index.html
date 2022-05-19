@@ -11,26 +11,30 @@
 
 <body>
 
-    <div>
-        <h1>Contador regressivo. Ex.: 31/12/2022</h1>
-        <ul class="countdown">
-            <li>
+    <div class="geral">
+        <div class="titulo">
+            <h1>CONTADOR REGRESSIVO<span class="ponto">.</span></h1>
+            <span class="exemplo">Ex.: 31/12/2022</span>
+        </div>
+
+        <div class="countdown template">
+            <div class="dados dado1">
                 <span data-time></span>
-                <div class="text">dia(s)</div>
-            </li>
-            <li>
+                <div class="text item-1">dia(s)</div>
+            </div>
+            <div class="dados dado2">
                 <span data-time></span>
-                <div class="text">hora(s)</div>
-            </li>
-            <li>
+                <div class="text item-2">hora(s)</div>
+            </div>
+            <div class="dados dado3">
                 <span data-time></span>
-                <div class="text">min</div>
-            </li>
-            <li>
+                <div class="text item-3">min</div>
+            </div>
+            <div class="dados dado4">
                 <span data-time></span>
-                <div class="text">sec</div>
-            </li>
-        </ul>
+                <div class="text item-4">sec</div>
+            </div>
+        </div>
     </div>
 
     <script type="module" src="script.js"></script>
