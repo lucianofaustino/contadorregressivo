@@ -1,16 +1,10 @@
 * {
-  margin: 0px;
-  padding: 0px;
-}
-
-li {
-  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background: #393d40;
-  padding-bottom: 60px;
-  margin: 0px;
 }
 
 h1 {
@@ -24,7 +18,6 @@ h1 {
   color: #df7b00;
 }
 
-/* alinhamento do topo */
 body>div {
   padding: 160px 0 0 0;
 }
@@ -53,10 +46,9 @@ body>div {
 .dados {
   margin: auto;
   height: 150px;
-  width: 210PX;
+  width: 210px;
   border-radius: 4px;
   color: #00ffff;
-  /*   background-image: linear-gradient(180deg, #1c1e1f, #191c1d, #131617); */
   background-image: linear-gradient(180deg, #24282a, #14181a);
   box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.1);
 }
@@ -72,7 +64,7 @@ body>div {
   margin: 8px 0 0 0;
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-style: italic;
+  font-size: italic;
   color: #91a8a8;
   font-size: 1em;
 }
@@ -86,7 +78,7 @@ body>div {
 
   .dados {
     height: 120px;
-    width: 160PX;
+    width: 160px
   }
 
   .titulo {
@@ -105,78 +97,68 @@ body>div {
   .text {
     font-size: .8em;
   }
-}
 
-@media (max-width: 740px) {
-  .countdown {
-    max-width: 565px;
-    height: 120px;
-    margin: 8px auto;
+  @media (max-width: 740px) {
+    .countdown {
+      max-width: 565px;
+      height: 120px;
+      margin: 8px auto;
+    }
+
+    .dados {
+      height: 120px;
+      width: 130px
+    }
   }
 
-  .dados {
-    height: 120px;
-    width: 130PX;
-  }
-}
+  @media (max-width: 600px) {
+    .countdown {
+      max-width: 330px;
+      height: 260px;
+      margin: 5px auto;
+    }
 
-@media (max-width: 600px) {
-  .countdown {
-    max-width: 330px;
-    height: 260px;
-    margin: 5px auto;
-  }
+    .dado1 {
+      flex-basis: 320px;
+    }
 
-  .dado1 {
-    flex-basis: 320px;
-  }
+    .dados234 {
+      flex-basis: 100px;
+      margin: 10px auto;
+    }
 
-  .dados234 {
-    flex-basis: 100px;
-    margin: 10px auto;
-  }
+    .countdown span {
+      margin: 15px 0 0 0;
+      font-size: 3em;
+      justify-content: center;
+    }
 
-  .countdown span {
-    margin: 15px 0 0 0;
-    font-size: 3em;
-    justify-content: center;
-  }
-
-  .text {
-    font-size: .75em;
-    margin: 12px 0 0 0;
+    .text {
+      font-size: .75em;
+      margin: 12px 0 0 0;
+    }
   }
 
-}
+  @media (max-width: 340px) {
+    .countdown {
+      max-width: 270px;
+    }
 
-@media (max-width: 340px) {
-  .countdown {
-    max-width: 270px;
-    height: 260px;
-    margin: 5px auto;
-  }
+    .dado1 {
+      flex-basis: 260px;
+    }
 
-  .dado1 {
-    flex-basis: 260px;
-  }
+    .dados234 {
+      flex-basis: 80px;
+    }
 
-  .dados234 {
-    flex-basis: 80px;
-    margin: 10px auto;
-  }
+    .titulo {
+      font-size: .65em;
+    }
 
-  .countdown span {
-    margin: 15px 0 0 0;
-    font-size: 3em;
-  }
-
-  .titulo {
-    font-size: .65em;
-    line-height: 3em;
-  }
-
-  .text {
-    font-size: .75em;
-    margin: 15px 0 0 0;
+    .text {
+      font-size: .75em;
+      margin: 15px 0 0 0;
+    }
   }
 }
